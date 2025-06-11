@@ -31,7 +31,7 @@ r2 = r2_score(y_test, y_pred)
 print("Mean Squared Error:",mse)
 print("r2 score:", r2)
 
-#visualize
+#visualizing the plot
 plt.scatter(y_test, y_pred)
 plt.xlabel("Actual Prices")
 plt.ylabel("Predicted Prices")
